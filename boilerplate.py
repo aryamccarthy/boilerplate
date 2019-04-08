@@ -25,7 +25,7 @@ from pathlib import Path
 
 __version__ = '0.1'
 
-log = logging.getLogger(__name__ if __name__ != '__main__ '
+log = logging.getLogger(__name__ if __name__ != '__main__'
                         else Path(__file__).stem)
 
 
